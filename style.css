@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: helvetica;
 }
 
 .home {
@@ -10,16 +11,31 @@ body {
 
 .headline {
     font-size: 5rem;
-    font-family: helvetica;
     color: pink;
 }
 
 ul {
     list-style: none;
+    text-align: center;
+}
+
+li {
+    padding-top: 2rem;
 }
 
 .nav-links {
     color: black;
     font-size: 3rem;
     text-decoration: none;
+}
+
+h2 {
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+
+a {
+    font-size: 2rem;
+    color: black;
 }
