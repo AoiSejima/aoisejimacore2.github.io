@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: 'Paytone One', sans-serif;
+}
+
+.lab {
+    width: 100%;
+    height: 100%;
+    background: rgb(199, 239, 255);
+}
+
+img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.headline {
+    position: absolute;
+    margin: auto 1.5vw;
+    font-size: 70pt;
+    color: rgb(255, 250, 200);
+    z-index: 2;
+}
+
+h2 {
+    position: relative;
+    text-align: center;
+    padding-top: 20vh;
+    font-size: 40pt;
+    color: rgb(219, 245, 255);
+    z-index: 2;
+}
+
+ul {
+    list-style: none;
+    z-index: 2;
+}
+
+li {
+    padding-top: 2rem;
+}
+
+.projects {
+    position: relative;
+    text-align: center;
+    z-index: 2;
+}
+
+a {
+    font-size: 30pt;
+    color: rgb(18, 67, 100);
+    text-decoration: none;
+}
